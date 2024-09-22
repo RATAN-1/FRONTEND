@@ -1,0 +1,62 @@
+.App {
+  font-family: 'Open Sans', sans-serif;
+  padding: 25px;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.json-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.submit-button {
+  padding: 12px 25px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #3e8e41;
+}
+
+.multi-select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filtered-response {
+  margin-top: 25px;
+  padding: 12px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.filtered-response h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.error {
+  color: #f44336;
+  margin-top: 15px;
+}
